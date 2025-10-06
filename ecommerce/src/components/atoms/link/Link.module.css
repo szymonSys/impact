@@ -1,0 +1,11 @@
+.loading {
+  position: relative;
+  pointer-events: none;
+  opacity: 0.7;
+  cursor: wait;
+}
+
+.inlineSpinner {
+  margin-left: var(--space-xs);
+  vertical-align: middle;
+}

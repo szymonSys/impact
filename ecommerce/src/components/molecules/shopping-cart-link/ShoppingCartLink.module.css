@@ -1,0 +1,23 @@
+.cartButton {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-sm) var(--space-md);
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--color-text-primary);
+  transition: color var(--transition-base);
+}
+
+.cartButton:hover {
+  color: var(--color-accent);
+}
+
+.cartBadge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(25%, -25%);
+}

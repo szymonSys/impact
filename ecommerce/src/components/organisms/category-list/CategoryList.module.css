@@ -1,0 +1,19 @@
+.categoryList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: var(--space-xl);
+  padding: var(--space-xl) 0;
+}
+
+@media (max-width: 640px) {
+  .categoryList {
+    grid-template-columns: 1fr;
+    gap: var(--space-lg);
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  .categoryList {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

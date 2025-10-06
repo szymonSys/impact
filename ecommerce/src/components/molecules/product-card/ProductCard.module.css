@@ -1,0 +1,53 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: var(--color-background);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  transition: all var(--transition-base);
+}
+
+.card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.imageContainer {
+  position: relative;
+  background-color: var(--color-surface);
+  padding: var(--space-lg);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: var(--space-lg);
+  gap: var(--space-sm);
+}
+
+.title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-height: 3rem;
+}
+
+.priceRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: auto;
+  padding-top: var(--space-md);
+}
+
+.price {
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-primary);
+}
+
+.actions {
+  margin-top: var(--space-md);
+}
