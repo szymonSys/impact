@@ -1,5 +1,7 @@
 # FakeStore E-commerce Application
 
+Please read [IMPROVEMENTS.md](IMPROVEMENTS.md) for detailed information about potential enhancements.
+
 ## Getting Started
 
 ### Prerequisites
